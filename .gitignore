@@ -30,4 +30,6 @@ $RECYCLE.BIN/
 
 images/
 converted-images/
+test-images/
+test-converted-images/
 .env

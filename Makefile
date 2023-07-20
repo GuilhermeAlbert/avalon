@@ -6,3 +6,6 @@ help:
 
 conversion:
 	yarn start
+
+test:
+	yarn test
