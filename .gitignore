@@ -27,3 +27,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+images/
+converted-images/
+.env

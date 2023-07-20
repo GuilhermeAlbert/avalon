@@ -1,16 +1,31 @@
 {
-  "name": "appy-html",
-  "description": "Appy HTML template - Cruip.com",
+  "name": "avalon",
   "version": "1.0.0",
-  "homepage": "https://cruip.com",
-  "author": "Pasquale Vitiello",
-  "license": "https://cruip.com/terms/",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./css/style.css -o ./style.css --watch",
-    "build": "npx tailwindcss -i ./css/style.css -o ./style.css"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trebla-br/avalon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trebla-br/avalon/issues"
+  },
+  "homepage": "https://github.com/trebla-br/avalon#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "heic-convert": "^1.2.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "tailwindcss": "^3.2.6"
+    "@types/heic-convert": "^1.2.0",
+    "@types/node": "^20.4.2"
   }
 }
